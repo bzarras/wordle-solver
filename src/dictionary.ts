@@ -1,4 +1,4 @@
-exports.letterPoints = {
+export const letterPoints: { [s: string]: number } = {
     'a': 8,
     'b': 2,
     'c': 4,
@@ -27,7 +27,7 @@ exports.letterPoints = {
     'z': 0
 };
 
-exports.matchList = [
+export const matchList = [
     'cigar','rebut','sissy','humph','awake','blush','focal','evade','naval',
     'serve','heath','dwarf','model','karma','stink','grade','quiet','bench',
     'abate','feign','major','death','fresh','crust','stool','colon','abase',
@@ -287,7 +287,7 @@ exports.matchList = [
     'judge','rower','artsy','rural','shave'
 ];
 
-exports.dictionary = [
+export const dictionary = [
     'aahed','aalii','aargh','aarti','abaca','abaci','abacs','abaft','abaka',
     'abamp','aband','abash','abask','abaya','abbas','abbed','abbes','abcee',
     'abeam','abear','abele','abers','abets','abies','abler','ables','ablet',

@@ -1,0 +1,26 @@
+{
+  "name": "wordle-solver",
+  "version": "1.0.0",
+  "description": "A tool to help you solve today's Wordle",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node build/index.js",
+    "clean": "rm -rf build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bzarras/wordle-solver.git"
+  },
+  "author": "Ben Zarras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bzarras/wordle-solver/issues"
+  },
+  "homepage": "https://github.com/bzarras/wordle-solver#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "typescript": "^4.5.5"
+  }
+}

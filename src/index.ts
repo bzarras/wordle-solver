@@ -1,6 +1,6 @@
-const readline = require('readline');
-const { matchList, letterPoints } = require('./dictionary');
-const bestGuess = require('./bestGuess');
+import readline from 'readline';
+import bestGuess from './bestGuess';
+import { matchList, letterPoints } from './dictionary';
 
 let wordList = matchList.sort((a, b) => {
     const aLetters = [...new Set(a.split(''))];
